@@ -109,12 +109,13 @@ p {
 
 .proceed, .cancel {
     width: 80%;
-    padding: 1.5em;
     border: none;
     margin: 1em 0;
 }
 
 .proceed{
+    padding: 1em;
+    font-size: 20px;
     color: white;
     font-weight: 700;
     background-color: #382AE1;
@@ -128,7 +129,8 @@ p {
 }
 
 .cancel{
-    padding: 1em;
+    font-size: 20px;
+    padding: 0.15em;
     margin: 1em 0;
     background-color: transparent;
     color: #717FA6;
